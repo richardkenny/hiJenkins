@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA656A6C171C595E001BA6C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA656A6B171C595E001BA6C9 /* UIKit.framework */; };
+		CA656A6E171C595E001BA6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA656A6D171C595E001BA6C9 /* Foundation.framework */; };
+		CA656A70171C595E001BA6C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA656A6F171C595E001BA6C9 /* CoreGraphics.framework */; };
+		CA656A76171C595E001BA6C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA656A74171C595E001BA6C9 /* InfoPlist.strings */; };
+		CA656A78171C595E001BA6C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA656A77171C595E001BA6C9 /* main.m */; };
+		CA656A7C171C595E001BA6C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA656A7B171C595E001BA6C9 /* AppDelegate.m */; };
+		CA656A7E171C595E001BA6C9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA656A7D171C595E001BA6C9 /* Default.png */; };
+		CA656A80171C595E001BA6C9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA656A7F171C595E001BA6C9 /* Default@2x.png */; };
+		CA656A82171C595E001BA6C9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA656A81171C595E001BA6C9 /* Default-568h@2x.png */; };
+		CA656A85171C595E001BA6C9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA656A83171C595E001BA6C9 /* MainStoryboard_iPhone.storyboard */; };
+		CA656A88171C595E001BA6C9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA656A86171C595E001BA6C9 /* MainStoryboard_iPad.storyboard */; };
+		CA656A8B171C595E001BA6C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA656A8A171C595E001BA6C9 /* ViewController.m */; };
+		CA656A93171C595E001BA6C9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA656A92171C595E001BA6C9 /* SenTestingKit.framework */; };
+		CA656A94171C595E001BA6C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA656A6B171C595E001BA6C9 /* UIKit.framework */; };
+		CA656A95171C595E001BA6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA656A6D171C595E001BA6C9 /* Foundation.framework */; };
+		CA656A9D171C595E001BA6C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA656A9B171C595E001BA6C9 /* InfoPlist.strings */; };
+		CA656AA0171C595E001BA6C9 /* HelloJenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA656A9F171C595E001BA6C9 /* HelloJenkinsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA656A96171C595E001BA6C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA656A60171C595E001BA6C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA656A67171C595E001BA6C9;
+			remoteInfo = HelloJenkins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA656A68171C595E001BA6C9 /* HelloJenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloJenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA656A6B171C595E001BA6C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA656A6D171C595E001BA6C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CA656A6F171C595E001BA6C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CA656A73171C595E001BA6C9 /* HelloJenkins-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloJenkins-Info.plist"; sourceTree = "<group>"; };
+		CA656A75171C595E001BA6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA656A77171C595E001BA6C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA656A79171C595E001BA6C9 /* HelloJenkins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloJenkins-Prefix.pch"; sourceTree = "<group>"; };
+		CA656A7A171C595E001BA6C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA656A7B171C595E001BA6C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA656A7D171C595E001BA6C9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA656A7F171C595E001BA6C9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CA656A81171C595E001BA6C9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CA656A84171C595E001BA6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CA656A87171C595E001BA6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CA656A89171C595E001BA6C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA656A8A171C595E001BA6C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA656A91171C595E001BA6C9 /* HelloJenkinsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloJenkinsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA656A92171C595E001BA6C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CA656A9A171C595E001BA6C9 /* HelloJenkinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloJenkinsTests-Info.plist"; sourceTree = "<group>"; };
+		CA656A9C171C595E001BA6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA656A9E171C595E001BA6C9 /* HelloJenkinsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloJenkinsTests.h; sourceTree = "<group>"; };
+		CA656A9F171C595E001BA6C9 /* HelloJenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloJenkinsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA656A65171C595E001BA6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA656A6C171C595E001BA6C9 /* UIKit.framework in Frameworks */,
+				CA656A6E171C595E001BA6C9 /* Foundation.framework in Frameworks */,
+				CA656A70171C595E001BA6C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA656A8D171C595E001BA6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA656A93171C595E001BA6C9 /* SenTestingKit.framework in Frameworks */,
+				CA656A94171C595E001BA6C9 /* UIKit.framework in Frameworks */,
+				CA656A95171C595E001BA6C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA656A5F171C595E001BA6C9 = {
+			isa = PBXGroup;
+			children = (
+				CA656A71171C595E001BA6C9 /* HelloJenkins */,
+				CA656A98171C595E001BA6C9 /* HelloJenkinsTests */,
+				CA656A6A171C595E001BA6C9 /* Frameworks */,
+				CA656A69171C595E001BA6C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA656A69171C595E001BA6C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA656A68171C595E001BA6C9 /* HelloJenkins.app */,
+				CA656A91171C595E001BA6C9 /* HelloJenkinsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA656A6A171C595E001BA6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA656A6B171C595E001BA6C9 /* UIKit.framework */,
+				CA656A6D171C595E001BA6C9 /* Foundation.framework */,
+				CA656A6F171C595E001BA6C9 /* CoreGraphics.framework */,
+				CA656A92171C595E001BA6C9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA656A71171C595E001BA6C9 /* HelloJenkins */ = {
+			isa = PBXGroup;
+			children = (
+				CA656A7A171C595E001BA6C9 /* AppDelegate.h */,
+				CA656A7B171C595E001BA6C9 /* AppDelegate.m */,
+				CA656A83171C595E001BA6C9 /* MainStoryboard_iPhone.storyboard */,
+				CA656A86171C595E001BA6C9 /* MainStoryboard_iPad.storyboard */,
+				CA656A89171C595E001BA6C9 /* ViewController.h */,
+				CA656A8A171C595E001BA6C9 /* ViewController.m */,
+				CA656A72171C595E001BA6C9 /* Supporting Files */,
+			);
+			path = HelloJenkins;
+			sourceTree = "<group>";
+		};
+		CA656A72171C595E001BA6C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA656A73171C595E001BA6C9 /* HelloJenkins-Info.plist */,
+				CA656A74171C595E001BA6C9 /* InfoPlist.strings */,
+				CA656A77171C595E001BA6C9 /* main.m */,
+				CA656A79171C595E001BA6C9 /* HelloJenkins-Prefix.pch */,
+				CA656A7D171C595E001BA6C9 /* Default.png */,
+				CA656A7F171C595E001BA6C9 /* Default@2x.png */,
+				CA656A81171C595E001BA6C9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA656A98171C595E001BA6C9 /* HelloJenkinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA656A9E171C595E001BA6C9 /* HelloJenkinsTests.h */,
+				CA656A9F171C595E001BA6C9 /* HelloJenkinsTests.m */,
+				CA656A99171C595E001BA6C9 /* Supporting Files */,
+			);
+			path = HelloJenkinsTests;
+			sourceTree = "<group>";
+		};
+		CA656A99171C595E001BA6C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA656A9A171C595E001BA6C9 /* HelloJenkinsTests-Info.plist */,
+				CA656A9B171C595E001BA6C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA656A67171C595E001BA6C9 /* HelloJenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA656AA3171C595E001BA6C9 /* Build configuration list for PBXNativeTarget "HelloJenkins" */;
+			buildPhases = (
+				CA656A64171C595E001BA6C9 /* Sources */,
+				CA656A65171C595E001BA6C9 /* Frameworks */,
+				CA656A66171C595E001BA6C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloJenkins;
+			productName = HelloJenkins;
+			productReference = CA656A68171C595E001BA6C9 /* HelloJenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA656A90171C595E001BA6C9 /* HelloJenkinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA656AA6171C595E001BA6C9 /* Build configuration list for PBXNativeTarget "HelloJenkinsTests" */;
+			buildPhases = (
+				CA656A8C171C595E001BA6C9 /* Sources */,
+				CA656A8D171C595E001BA6C9 /* Frameworks */,
+				CA656A8E171C595E001BA6C9 /* Resources */,
+				CA656A8F171C595E001BA6C9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA656A97171C595E001BA6C9 /* PBXTargetDependency */,
+			);
+			name = HelloJenkinsTests;
+			productName = HelloJenkinsTests;
+			productReference = CA656A91171C595E001BA6C9 /* HelloJenkinsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA656A60171C595E001BA6C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = compuware;
+			};
+			buildConfigurationList = CA656A63171C595E001BA6C9 /* Build configuration list for PBXProject "HelloJenkins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA656A5F171C595E001BA6C9;
+			productRefGroup = CA656A69171C595E001BA6C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA656A67171C595E001BA6C9 /* HelloJenkins */,
+				CA656A90171C595E001BA6C9 /* HelloJenkinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA656A66171C595E001BA6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA656A76171C595E001BA6C9 /* InfoPlist.strings in Resources */,
+				CA656A7E171C595E001BA6C9 /* Default.png in Resources */,
+				CA656A80171C595E001BA6C9 /* Default@2x.png in Resources */,
+				CA656A82171C595E001BA6C9 /* Default-568h@2x.png in Resources */,
+				CA656A85171C595E001BA6C9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CA656A88171C595E001BA6C9 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA656A8E171C595E001BA6C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA656A9D171C595E001BA6C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA656A8F171C595E001BA6C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA656A64171C595E001BA6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA656A78171C595E001BA6C9 /* main.m in Sources */,
+				CA656A7C171C595E001BA6C9 /* AppDelegate.m in Sources */,
+				CA656A8B171C595E001BA6C9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA656A8C171C595E001BA6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA656AA0171C595E001BA6C9 /* HelloJenkinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA656A97171C595E001BA6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA656A67171C595E001BA6C9 /* HelloJenkins */;
+			targetProxy = CA656A96171C595E001BA6C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA656A74171C595E001BA6C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA656A75171C595E001BA6C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CA656A83171C595E001BA6C9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA656A84171C595E001BA6C9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CA656A86171C595E001BA6C9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA656A87171C595E001BA6C9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CA656A9B171C595E001BA6C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA656A9C171C595E001BA6C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA656AA1171C595E001BA6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA656AA2171C595E001BA6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA656AA4171C595E001BA6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CA656AA5171C595E001BA6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CA656AA7171C595E001BA6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloJenkins.app/HelloJenkins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				INFOPLIST_FILE = "HelloJenkinsTests/HelloJenkinsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CA656AA8171C595E001BA6C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloJenkins.app/HelloJenkins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				INFOPLIST_FILE = "HelloJenkinsTests/HelloJenkinsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA656A63171C595E001BA6C9 /* Build configuration list for PBXProject "HelloJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA656AA1171C595E001BA6C9 /* Debug */,
+				CA656AA2171C595E001BA6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA656AA3171C595E001BA6C9 /* Build configuration list for PBXNativeTarget "HelloJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA656AA4171C595E001BA6C9 /* Debug */,
+				CA656AA5171C595E001BA6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA656AA6171C595E001BA6C9 /* Build configuration list for PBXNativeTarget "HelloJenkinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA656AA7171C595E001BA6C9 /* Debug */,
+				CA656AA8171C595E001BA6C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA656A60171C595E001BA6C9 /* Project object */;
+}
