@@ -434,6 +434,7 @@
 				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
 				INFOPLIST_FILE = "HelloJenkinsTests/HelloJenkinsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -451,6 +452,7 @@
 				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
 				INFOPLIST_FILE = "HelloJenkinsTests/HelloJenkinsTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
