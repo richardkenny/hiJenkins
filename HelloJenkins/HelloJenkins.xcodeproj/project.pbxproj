@@ -24,6 +24,7 @@
 		CA656A95171C595E001BA6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA656A6D171C595E001BA6C9 /* Foundation.framework */; };
 		CA656A9D171C595E001BA6C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA656A9B171C595E001BA6C9 /* InfoPlist.strings */; };
 		CA656AA0171C595E001BA6C9 /* HelloJenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA656A9F171C595E001BA6C9 /* HelloJenkinsTests.m */; };
+		CAB39D92171C7FB8003FF71B /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB39D91171C7FB8003FF71B /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		CA656A9C171C595E001BA6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA656A9E171C595E001BA6C9 /* HelloJenkinsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloJenkinsTests.h; sourceTree = "<group>"; };
 		CA656A9F171C595E001BA6C9 /* HelloJenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloJenkinsTests.m; sourceTree = "<group>"; };
+		CAB39D91171C7FB8003FF71B /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		CA656A5F171C595E001BA6C9 = {
 			isa = PBXGroup;
 			children = (
+				CAB39D91171C7FB8003FF71B /* apple.png */,
 				CA656A71171C595E001BA6C9 /* HelloJenkins */,
 				CA656A98171C595E001BA6C9 /* HelloJenkinsTests */,
 				CA656A6A171C595E001BA6C9 /* Frameworks */,
@@ -240,6 +243,7 @@
 				CA656A82171C595E001BA6C9 /* Default-568h@2x.png in Resources */,
 				CA656A85171C595E001BA6C9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CA656A88171C595E001BA6C9 /* MainStoryboard_iPad.storyboard in Resources */,
+				CAB39D92171C7FB8003FF71B /* apple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +471,7 @@
 				CA656AA5171C595E001BA6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA656AA6171C595E001BA6C9 /* Build configuration list for PBXNativeTarget "HelloJenkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				CA656AA8171C595E001BA6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
