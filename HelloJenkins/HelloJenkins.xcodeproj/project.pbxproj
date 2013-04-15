@@ -407,6 +407,7 @@
 				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
 				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,6 +420,7 @@
 				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s x86_64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
