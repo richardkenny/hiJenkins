@@ -25,6 +25,7 @@
 		CA656A9D171C595E001BA6C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA656A9B171C595E001BA6C9 /* InfoPlist.strings */; };
 		CA656AA0171C595E001BA6C9 /* HelloJenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA656A9F171C595E001BA6C9 /* HelloJenkinsTests.m */; };
 		CAB39D92171C7FB8003FF71B /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB39D91171C7FB8003FF71B /* apple.png */; };
+		CAB39D94171C8079003FF71B /* big.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB39D93171C8079003FF71B /* big.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		CA656A9E171C595E001BA6C9 /* HelloJenkinsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloJenkinsTests.h; sourceTree = "<group>"; };
 		CA656A9F171C595E001BA6C9 /* HelloJenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloJenkinsTests.m; sourceTree = "<group>"; };
 		CAB39D91171C7FB8003FF71B /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		CAB39D93171C8079003FF71B /* big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		CA656A5F171C595E001BA6C9 = {
 			isa = PBXGroup;
 			children = (
+				CAB39D93171C8079003FF71B /* big.png */,
 				CAB39D91171C7FB8003FF71B /* apple.png */,
 				CA656A71171C595E001BA6C9 /* HelloJenkins */,
 				CA656A98171C595E001BA6C9 /* HelloJenkinsTests */,
@@ -244,6 +247,7 @@
 				CA656A85171C595E001BA6C9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				CA656A88171C595E001BA6C9 /* MainStoryboard_iPad.storyboard in Resources */,
 				CAB39D92171C7FB8003FF71B /* apple.png in Resources */,
+				CAB39D94171C8079003FF71B /* big.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
