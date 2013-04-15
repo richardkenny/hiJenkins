@@ -36,7 +36,7 @@ if [ "$Target" == "helloJenkins" ]; then
 	# You may need a seperate configuration created to build againt our internal servers (or for any specific environment)
 	if [ "$Config" == "AutobuildRelease" ]; then
 		/usr/bin/xcrun -sdk iphoneos PackageApplication -v $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.app -o $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.ipa --sign "iPhone Distribution: Compuware Corporation" --embed ~/Downloads/Enterprise.mobileprovision
-		mv $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.ipa ${WORKSPACE}/helloJenkins.ipa
+		mv $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.ipa ${WORKSPACE}/HelloJenkins.ipa
 	fi
 fi
 
