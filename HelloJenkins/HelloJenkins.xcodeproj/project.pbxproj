@@ -420,6 +420,7 @@
 				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = NO;
 				VALID_ARCHS = "armv7 armv7s x86_64";
 				WRAPPER_EXTENSION = app;
 			};
