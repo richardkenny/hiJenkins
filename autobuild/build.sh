@@ -12,7 +12,7 @@
 export DEVELOPER_DIR=/Applications/${XcodeAppName}.app/Contents/Developer
 
 # move into source directory
-cd "Hello Jenkins"
+cd "HelloJenkins"
 
 # Clean the project
 xcodebuild clean
@@ -25,7 +25,7 @@ xcodebuild -target ${Target} -scheme ${Scheme} -configuration ${Config} DSTROOT=
 SYMROOT=$WORKSPACE/build.sym SHARED_PRECOMPS_DIR=$WORKSPACE/build.pch
 
 # Sign and export
-if [ "$Target" == "helloJenkins-ios" ]; then
+if [ "$Target" == "helloJenkins" ]; then
 	if [ "$Config" == "Debug" ]; then
 		/usr/bin/xcrun -sdk iphoneos PackageApplication -v $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.app -o $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.ipa --sign "iPhone Developer" --embed ${WORKSPACE}/autobuild/iOSTeam.mobileprovision
 	fi
@@ -36,7 +36,7 @@ if [ "$Target" == "helloJenkins-ios" ]; then
 	# You may need a seperate configuration created to build againt our internal servers (or for any specific environment)
 	if [ "$Config" == "AutobuildRelease" ]; then
 		/usr/bin/xcrun -sdk iphoneos PackageApplication -v $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.app -o $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.ipa --sign "iPhone Distribution: Compuware Corporation" --embed ~/Downloads/Enterprise.mobileprovision
-		mv $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.ipa ${WORKSPACE}/helloJenkins-ios.ipa
+		mv $WORKSPACE/build.sym/${Config}-iphoneos/${Target}.ipa ${WORKSPACE}/helloJenkins.ipa
 	fi
 fi
 
